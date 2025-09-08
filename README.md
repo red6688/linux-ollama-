@@ -14,6 +14,7 @@ ollama部署qwen2.5b-7b大模型
 
 ##安装成功后启动ollama服务
     ollama serve
+    
 ## 加载本地模型
 ### 创建模型文件
 在llama.cpp文件夹下新建Modelfile，文件内容如下
