@@ -3,8 +3,11 @@ ollama部署qwen2.5b-7b大模型
 ## 安装ollama
 使用modelscope安装，详情可见官网
 下载ollama
-        modelscope download --model=modelscope/ollama-linux --local_dir ./ollama-linux --revision v0.11.5
+
+                modelscope download --model=modelscope/ollama-linux --local_dir ./ollama-linux --revision v0.11.5
+
 安装
+
                 cd ollama-linux
 sudo chmod 777 ./ollama-modelscope-install.sh
 ./ollama-modelscope-install.sh
